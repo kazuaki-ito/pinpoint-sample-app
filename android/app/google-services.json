@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "874802915162",
+    "project_id": "im-sandbox-fad72",
+    "storage_bucket": "im-sandbox-fad72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874802915162:android:6ded60268096d6a7363563",
+        "android_client_info": {
+          "package_name": "com.isoshimoustache.pinpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874802915162-79ce7cnvgnh2n6r5l2gur6uajkmcl277.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGqgYNfJkcFrGnyvYUKFFzf1qUQbkjszQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874802915162-79ce7cnvgnh2n6r5l2gur6uajkmcl277.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

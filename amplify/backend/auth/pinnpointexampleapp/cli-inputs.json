@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "pinnpointexampleapp_identitypool_9bb45938",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "pinnpointexampleapp",
+    "sharedId": "9bb45938",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}

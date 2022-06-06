@@ -1,0 +1,28 @@
+{
+    "auth": {
+        "pinnpointexampleapp": {
+            "service": "Cognito",
+            "serviceType": "managed",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "frontendAuthConfig": {
+                "socialProviders": [],
+                "usernameAttributes": [],
+                "signupAttributes": [],
+                "passwordProtectionSettings": {
+                    "passwordPolicyCharacters": []
+                },
+                "mfaTypes": [],
+                "verificationMechanisms": []
+            }
+        }
+    },
+    "notifications": {
+        "pinnpointExampleAppWFaWh": {
+            "service": "Pinpoint",
+            "channels": [
+                "FCM"
+            ]
+        }
+    }
+}

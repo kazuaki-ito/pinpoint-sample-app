@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pinnpointexampleapp-dev-182756-authRole",
+      "UnauthRoleArn": "arn:aws:iam::231385622770:role/amplify-pinnpointexampleapp-dev-182756-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::231385622770:role/amplify-pinnpointexampleapp-dev-182756-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-pinnpointexampleapp-dev-182756-deployment",
+      "UnauthRoleName": "amplify-pinnpointexampleapp-dev-182756-unauthRole",
+      "StackName": "amplify-pinnpointexampleapp-dev-182756",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:231385622770:stack/amplify-pinnpointexampleapp-dev-182756/4ad5c070-e256-11ec-afb0-06055cc77c77",
+      "AmplifyAppId": "d3kes3o0x9dal1"
+    },
+    "categories": {
+      "auth": {
+        "undefined": {}
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "pinnpointExampleAppWFaWh-dev",
+          "Id": "a52c5a43b8ed45a9baa0d455b0fe75cd",
+          "Region": "ap-northeast-1"
+        }
+      }
+    }
+  }
+}

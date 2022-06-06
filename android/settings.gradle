@@ -1,0 +1,11 @@
+rootProject.name = 'pinnpointExampleApp'
+include ':@aws-amplify_pushnotification'
+project(':@aws-amplify_pushnotification').projectDir = new File(rootProject.projectDir, '../node_modules/@aws-amplify/pushnotification/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+includeBuild('../node_modules/react-native-gradle-plugin')
+
+if (settings.hasProperty("newArchEnabled") && settings.newArchEnabled == "true") {
+    include(":ReactAndroid")
+    project(":ReactAndroid").projectDir = file('../node_modules/react-native/ReactAndroid')
+}
